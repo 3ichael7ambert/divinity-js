@@ -1,0 +1,131 @@
+////ORIGINAL///
+.nav {
+	/* Netscape 4, IE 4.x-5.0/Win and other lesser browsers will use this */
+  position: absolute; left: 10px; top: 120px;
+}
+body > div.nav {
+  /* used by Opera 5+, Netscape6+/Mozilla, Konqueror, Safari, OmniWeb 4.5+, iCab, ICEbrowser */
+  position: fixed;
+}
+
+
+
+.nav2 {
+	/* Netscape 4, IE 4.x-5.0/Win and other lesser browsers will use this */
+  position: absolute; left: 10px; top: 110px;
+}
+body > div.nav2 {
+  /* used by Opera 5+, Netscape6+/Mozilla, Konqueror, Safari, OmniWeb 4.5+, iCab, ICEbrowser */
+  position: fixed;
+}
+
+
+
+
+
+
+body
+{
+color:FFFFFF;
+background-image:url('bg3.png');
+background-position:center top;
+background-repeat:repeat-y;
+background-attachment:fixed;
+background-color:#000000;
+}
+
+.nav
+{
+
+width:150;
+height175;
+z-index:11;
+}
+.nav2
+{
+width:150;
+height175;
+z-index:10;
+}
+
+.container1
+{
+position:relative;
+top:-10;
+background-image:url('bg2.png');
+background-position:center top;
+background-repeat:repeat-y;
+background-attachment:fixed;
+width:100%;
+height:800;
+}
+.container2
+{
+
+background-image:url('bg1.png');
+background-position:center top;
+background-repeat:repeat-y;
+background-attachment:fixed;
+width:100%;
+height:800;
+}
+.container3
+{
+
+background-image:url('fgrd.png');
+background-position:center top;
+background-repeat:no-repeat;
+width:100%;
+height:800;
+
+}
+.cr
+{width:800;
+background-image:url('strip.png');
+background-color:000000;
+height:25;
+background-position:center top;
+}
+.box
+{
+position:relative;
+width:250;
+height:350;
+top:100;
+left:0;
+overflow:auto;
+background-image:url('news_bg.png');
+
+background-position:center center;
+}
+.header
+{
+position:relative;
+background-image:url('news.png');
+width:300;
+height:200;
+top:100;
+left:-100;
+overflow:auto;
+}
+
+
+
+
+///IMAGES///
+.image-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: -10000;
+  }
+  
+  .image-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: -10000;
+  }
+  

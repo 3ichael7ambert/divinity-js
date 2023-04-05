@@ -111,6 +111,18 @@ overflow:auto;
 
 
 
+.portrait
+{
+position:relative;
+background-image:url('portrait.png');
+width:300;
+height:300;
+top:-100;
+left:150;
+}
+
+
+
 
 ///IMAGES///
 .image-container {
@@ -129,3 +141,10 @@ overflow:auto;
     z-index: -10000;
   }
   
+
+
+
+
+
+
+
